@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+        <input class="display">
+        <button  onclick="limparTela()"  class="gray-button">AC</button>
+        <button  onclick=" inverte()"   class="gray-button">+/-</button>
+        <button   onclick="addCaracter('/')" class="pink-button">/</button>
+        <button  onclick="addCaracter('*')"  class="pink-button">*</button>
+        <button  onclick="addCaracter('7')"  class="black-button">7</button>
+        <button  onclick="addCaracter('8')" class="black-button">8</button>
+        <button  onclick="addCaracter('9')" class="black-button">9</button>
+        <button  onclick="addCaracter('-')" class="pink-button">-</button>
+        <button   onclick="addCaracter('4')" class="black-button">4</button>
+        <button  onclick="addCaracter('5')" class="black-button">5</button>
+        <button   onclick="addCaracter('6')" class="black-button">6</button>
+        <button   onclick="addCaracter('+')"  class="pink-button">+</button>
+        <button  onclick="addCaracter('1')"   class="black-button">1</button>
+        <button   onclick="addCaracter('2')" class="black-button">2</button>
+        <button  onclick="addCaracter('3')"  class="black-button">3</button>
+        <button  onclick="calcular()"  class="pink-button">=</button>
+        <button  onclick="addCaracter('0')"    class="black-button">0</button>
+        <button  onclick="addCaracter('.')"  class="black-button">.</button>
+    </div>
+</body>
+<script src="./index.js"></script>
+</html>
